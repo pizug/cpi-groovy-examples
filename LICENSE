@@ -1,4 +1,6 @@
-SAP Java APIs for CPI are property of SAP. MIT license only applies to community provided script examples.
+- SAP Java APIs for CPI are property of SAP.
+- Community provided Groovy scripts are MIT licenced.
+- Script explanations, `README.md` files are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 MIT License
 
