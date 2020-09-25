@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<Headers>
+		<string>FirstName</string>
+		<string>LastName</string>
+		<string>Title</string>
+		<string>Birthdate</string>
+	</Headers>
+	<Items>
+		<string>Marley</string>
+		<string>Paige</string>
+		<string>Senior Robot</string>
+		<string>1999-06-07Z</string>
+	</Items>
+		<Items>
+		<string>Laurel</string>
+		<string>Meyer</string>
+		<string></string>
+		<string>2002-06-07Z</string>
+	</Items>
+		<Items>
+		<string>Gabe</string>
+		<string>Meyer</string>
+		<string>Senior Robot</string>
+		<string>1982-06-07Z</string>
+	</Items>
+</Root>

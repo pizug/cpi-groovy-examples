@@ -15,9 +15,9 @@ def Message processData(Message message) {
     message.setHeader("newHeader", "newHeader value");
 
     //Properties 
-    map = message.getProperties();
-    value = map.get("oldProperty");
-    message.setProperty("oldProperty", value + "modified");
+    def mapProperties = message.getProperties();
+    def valueProperty = mapProperties.get("oldProperty");
+    message.setProperty("oldProperty", valueProperty + "modified");
     message.setProperty("newProperty", "newProperty value");
     return message;
     }

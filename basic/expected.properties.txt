@@ -1,0 +1,3 @@
+#Exchange Properties Contents
+newProperty=newProperty value
+oldProperty=nullmodified
