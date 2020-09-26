@@ -2,17 +2,17 @@
 
 Groovy scripting is an integral and important feature of SAP Cloud Platform Integration(CPI)
 
-Goals of this repository are:
+The goals of this repository are:
 
 - Providing templates when you are implementing a new script
 - Easily finding Groovy functions related to the CPI topic at hand
-- Minimizing search engine usage for common tasks
+- Minimizing search engine time for common tasks
 
 Script examples are provided with context, explanation, and input/output examples.
 
 # How to contribute
 
-You can send any kind of example that you think is useful. We can analyze it together, add it to an existing script, or create a new one.
+You can send any kind of example that you consider to be useful. We can analyze it together, add it to an existing script, or create a new one.
 
 You can [create a new issue](https://github.com/pizug/cpi-groovy-examples/issues/new), send pull requests, send it through [Groovy IDE](https://groovyide.com/cpi) feedback form, or send it directly to [Fatih Pense](https://www.linkedin.com/in/fatihpense/).
 
