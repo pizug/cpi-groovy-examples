@@ -11,5 +11,3 @@ SAP Community Blog for explaining the feature https://blogs.sap.com/2020/09/13/s
 
 You can use workspace API for search or you can install [SuperEasy browser extension for CPI](https://chrome.google.com/webstore/detail/mdpgroup-supereasy-extens/nbeijdcbojmlpnhdikiebpdkikkmkljh).
 
-    Groovy IDE notice
-    You can't test MPL Logging with GroovyIDE at the moment.
