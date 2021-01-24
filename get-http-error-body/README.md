@@ -1,8 +1,10 @@
 # Getting HTTP Error Body
 
-If you are using SOAP adapter you have to change adapter type to HTTP.
+This example works if you are using HTTP receiver adapter.
 
-Currently, the only option is using an HTTP receiver adapter. In order to convert SOAP Receiver to HTTP Receiver:
+If you are using SOAP adapter you can change adapter type to HTTP, or see the other example "Getting SOAP Error Body"
+
+If you want to convert SOAP Receiver to HTTP Receiver:
 
 * Change the receiver adapter type. Enter the connection details.
 * Wrap your request message body in SOAP Envelope in a Content Modifier before calling the adapter.
