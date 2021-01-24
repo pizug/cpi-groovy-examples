@@ -47,19 +47,18 @@ def Message processData(Message message) {
 	String NSURL = "https://pizug.com";
 	
 	
-		//Base64 Body
+		// Base64 Body
 		def body = message.getBody(String.class);
-		byte[] data = java.util.Base64.getDecoder().decode(body)
-		Workbook workbook = new HSSFWorkbook( new ByteArrayInputStream(data));
+		byte[] data = java.util.Base64.getDecoder().decode(body);
+		Workbook workbook = new HSSFWorkbook( new ByteArrayInputStream(data) );
      
-		//Binary Body
+		// Binary Body
 		//def body = message.getBody(InputStream.class);
 		//Workbook workbook = new HSSFWorkbook( body);
 
-       Document doc = newDocument();
+		Document doc = newDocument();
 		
-		Element rootEl = doc.createElementNS(NSURL,
-				"ns1:MT_3RD_CPI_ORDER");
+		Element rootEl = doc.createElementNS(NSURL, "ns1:MT_3RD_CPI_ORDER" );  //" syntax highlighting bug
 		doc.appendChild(rootEl);
 
 		

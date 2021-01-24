@@ -10,7 +10,7 @@ Message object contains:
 - multiple headers
 - multiple properties
 
-It also supports SOAP headers but for clarity, we will look into that later.
+It also supports SOAP headers & attachments but for clarity, we will look into that later.
 
 ### Changing body
 

@@ -22,6 +22,7 @@ def Message processData(Message message) {
     map = message.getProperties();
 
     def sftp_hostname = map.get("sftp_hostname")
+    def sftp_port = map.get("sftp_port")
     def sftp_credential = map.get("sftp_credential");
     def sftp_filename = map.get("sftp_filename");
 
@@ -35,17 +36,17 @@ def Message processData(Message message) {
     String sftp_username = credential.getUsername();
     String sftp_password =  new String(credential.getPassword());
 
-    String encodedString = getFileContentFromSFTP(sftp_hostname,sftp_username,sftp_password,sftp_filename)
+    String encodedString = getFileContentFromSFTP(sftp_hostname,sftp_port,sftp_username,sftp_password,sftp_filename)
     message.setBody(encodedString);
 
     return message;
 }
 
-def String getFileContentFromSFTP(sftp_hostname,sftp_username,sftp_password,sftp_filename){
+def String getFileContentFromSFTP(sftp_hostname,sftp_port,sftp_username,sftp_password,sftp_filename){
         JSch jsch = new JSch();
     Session session = null;
     try {
-        session = jsch.getSession(sftp_username, sftp_hostname, 30000);
+        session = jsch.getSession(sftp_username, sftp_hostname, sftp_port as Integer);
         session.setConfig("StrictHostKeyChecking", "no");
         session.setPassword(sftp_password);
         session.connect();
