@@ -1,6 +1,6 @@
-# Groovy Script Examples for CPI
+# Groovy Script Examples for SAP Cloud Integration
 
-Groovy scripting is an integral and important feature of SAP Cloud Platform Integration(CPI)
+Groovy scripting is an integral and important feature of SAP Cloud Integration (CPI)
 
 The goals of this repository are:
 
