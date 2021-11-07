@@ -49,7 +49,7 @@ def String getFileContentFromSFTP(sftp_hostname,sftp_port,sftp_username,sftp_pas
         session = jsch.getSession(sftp_username, sftp_hostname, sftp_port as Integer);
         session.setConfig("StrictHostKeyChecking", "no");
         session.setPassword(sftp_password);
-        session.connect();
+        session.connect(10000);
 
         Channel channel = session.openChannel("sftp");
         channel.connect();
