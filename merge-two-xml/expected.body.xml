@@ -1,0 +1,17 @@
+<Root>
+    <UsualElement>test</UsualElement>
+    <AnotherField>123</AnotherField>
+    <Extension1>
+      <ExternalData>
+        <item>
+          <key>key1</key>
+          <value>value1</value>
+        </item>
+        <item>
+          <key>key2</key>
+          <value>value2</value>
+        </item>
+      </ExternalData>
+    </Extension1>
+  </Root>
+  
