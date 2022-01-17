@@ -1,6 +1,8 @@
-# Merge Two XML Documents
+# Merge Two XML Documents v2
 
-Note: You can also check "Merge Two XML Documents v2" for a shorter & cleaner example.
+This script example is contributed by Raffael Herrmann.
+
+You can compare the "Merge Two XML Documents" example with this one. This example is shorter and uses expressive features of Groovy.
 
 It is useful to have the extra data from another service in the same document and use it in a later mapping step.
 
