@@ -14,7 +14,7 @@ def Message processData(Message message) {
                     
                     // save the rfc error response as a message attachment 
                     def messageLog = messageLogFactory.getMessageLog(message);
-                    messageLog.addAttachmentAsString("rfc.ResponseBody", ex.getCause(), "text/plain");
+                    messageLog.addAttachmentAsString("rfc.ResponseBody", "<Exception>" + ex.getCause() + "</Exception>", "text/plain");
                     // copy the rfc error response to the message body in xml
                     message.setBody("<Exception>" + ex.getCause() + "</Exception>");
                     // copy the rfc error response to the message body in json
