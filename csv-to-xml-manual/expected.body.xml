@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <record>
+        <HEADER1>1</HEADER1>
+        <B>2</B>
+        <C>3
+        </C>
+    </record>
+    <record>
+        <HEADER1>4</HEADER1>
+        <B>5</B>
+        <C>6</C>
+    </record>
+</root>
+  
